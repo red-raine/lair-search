@@ -1,0 +1,138 @@
+{
+  "wayward-builder": {
+    "_decisions": [
+      {
+        "model": "local-qwen3-coder",
+        "task": "code_gen"
+      }
+    ]
+  },
+  "wayward-reviewer": {
+    "_decisions": [
+      {
+        "model": "local-lfm2-rag",
+        "task": "judge"
+      }
+    ]
+  },
+  "wayward-contrarian": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-4.7-flash-free",
+        "task": "eval"
+      }
+    ]
+  },
+  "wayward-researcher": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-4.7-flash-free",
+        "task": "fact_find"
+      }
+    ]
+  },
+  "wayward-reflector": {
+    "_decisions": [
+      {
+        "model": "local-lfm2-tool",
+        "task": "reflexion"
+      }
+    ]
+  },
+  "wayward-curator": {
+    "_decisions": [
+      {
+        "model": "aihubmix-gemini-3.5-flash-lite-free",
+        "task": "lessons"
+      }
+    ]
+  },
+  "wayward-librarian": {
+    "_decisions": [
+      {
+        "model": "local-qwen3-coder",
+        "task": "wiki"
+      }
+    ]
+  },
+  "wayward-cataloger": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-4.7-flash-free",
+        "task": "catalog"
+      }
+    ]
+  },
+  "wayward-hermes": {
+    "_decisions": [
+      {
+        "model": "local-lfm2-tool",
+        "task": "cleanup"
+      }
+    ]
+  },
+  "wayward-spec": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-5.2-free",
+        "task": "spec_gen"
+      }
+    ]
+  },
+  "wayward-vsm": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-5.2-free",
+        "task": "audit"
+      }
+    ]
+  },
+  "master-builder": {
+    "_decisions": [
+      {
+        "model": "local-qwen3-coder",
+        "task": "build"
+      }
+    ]
+  },
+  "stack-warden": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-4.7-flash-free",
+        "task": "ops"
+      }
+    ]
+  },
+  "master-treasurer": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-5.2-free",
+        "task": "money"
+      }
+    ]
+  },
+  "morning-conductor": {
+    "_decisions": [
+      {
+        "model": "local-lfm2-tool",
+        "task": "brief"
+      }
+    ]
+  },
+  "master-scheduler": {
+    "_decisions": [
+      {
+        "model": "aihubmix-glm-4.7-flash-free",
+        "task": "triage"
+      }
+    ]
+  },
+  "forge-master": {
+    "_decisions": [
+      {
+        "model": "local-qwen3-coder",
+        "task": "plugins"
+      }
+    ]
+  }
+}
